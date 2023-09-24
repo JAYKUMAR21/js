@@ -1,0 +1,7 @@
+// program for finding area of circle 
+let radius = 4;
+const pi = 3.14; //value of pi should be changed that's why we use const keyword place of let
+
+let area = pi * radius * radius;
+
+console.log(area);

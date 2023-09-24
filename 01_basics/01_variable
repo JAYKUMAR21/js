@@ -1,0 +1,20 @@
+const accId = 254214;
+let accEmail = "kumar@gmail.com";
+var accPass = "123456";
+
+accCity = "jaipur"
+console.table([accId, accEmail, accPass, accCity]);
+
+
+// accId = 2;   not allowed, bacause of constant means fix value which can not be changed 
+accEmail = "jay@gmail.com"
+accPass = "987654"
+accCity = "Patna"
+// console.log( accId);
+
+/*
+prefer not to use var
+because of issue in block scope and functional scope
+ */
+
+console.table([accId, accEmail, accPass, accCity]);
