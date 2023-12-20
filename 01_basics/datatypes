@@ -1,0 +1,43 @@
+/*
+there are basically two types of data types:
+1. Primitive types
+    a.Number
+    b.bolean
+    c.String
+    d.bigInt
+    e.symbol(uniqueness)
+    f.null
+    g.undefined
+
+2. Non-Primitive types(object/reference type)
+    a.Arrays
+    b.functions
+    c.objects
+    [Note: String[we can declare strings with the help of object also]]
+
+
+typeof
+*/
+
+//Primitive data types:
+let name = "jay"
+// console.log(typeof name); //string
+
+let num = 23;
+// console.log( typeof num);//number
+
+let num2 = 203.25;
+// console.log(typeof num2);//number
+
+let isLoggedIn = true;
+// console.log(typeof isLoggedIn);//boolean
+
+//[null: something is declared but value is empty.]
+let temp = null;
+// console.log(typeof temp); //object
+//[null is primitive data types but if we print it's type then it would be object.]
+
+let number;
+// console.log(typeof number);//undefined
+//[Note: type of undefined in undefined but type of null is object.]
+//[observation: every type of value is same type of data types  but null has different(object)]
